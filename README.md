@@ -1,1 +1,2 @@
 # library-checker-solutions-ssrs
+[![Actions Status](https://github.com/SSRS-cp/library-checker-solutions-ssrs/workflows/verify/badge.svg)](https://github.com/SSRS-cp/library-checker-solutions-ssrs/actions) [![GitHub Pages](https://img.shields.io/static/v1?label=GitHub+Pages&message=+&color=brightgreen&logo=github)](https://SSRS-cp.github.io/library-checker-solutions-ssrs/)
