@@ -7,6 +7,16 @@ data:
     - icon: ':heavy_check_mark:'
       path: Data Structures/Associative Array/map.test.cpp
       title: Data Structures/Associative Array/map.test.cpp
+  - name: Data Structures/Double-Ended Priority Queue
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Data Structures/Double-Ended Priority Queue/multiset.test.cpp
+      title: Data Structures/Double-Ended Priority Queue/multiset.test.cpp
+  - name: Data Structures/Predecessor Problem
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Data Structures/Predecessor Problem/set.test.cpp
+      title: Data Structures/Predecessor Problem/set.test.cpp
   - name: Data Structures/Static Range Sum
     pages:
     - icon: ':heavy_check_mark:'
