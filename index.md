@@ -7,6 +7,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: Data Structures/Associative Array/map.test.cpp
       title: Data Structures/Associative Array/map.test.cpp
+  - name: Data Structures/Unionfind
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: Data Structures/Unionfind/uf.test.cpp
+      title: Data Structures/Unionfind/uf.test.cpp
   - name: Sample/A + B
     pages:
     - icon: ':heavy_check_mark:'
