@@ -13,18 +13,18 @@ data:
     - https://judge.yosupo.jp/problem/many_aplusb
   bundledCode: "#line 1 \"Sample/Many A + B/ac.test.cpp\"\n#define PROBLEM \"https://judge.yosupo.jp/problem/many_aplusb\"\
     \n#include <iostream>\nint main(){\n  std::ios_base::sync_with_stdio(false);\n\
-    \  std::cin.tie(0);\n  int T;\n  std::cin >> T;\n  for (int i = 0; i < T; i++){\n\
-    \    long long A, B;\n    std::cin >> A >> B;\n    std::cout << A + B << '\\n';\n\
-    \  }\n}\n"
+    \  std::cin.tie(nullptr);\n  int T;\n  std::cin >> T;\n  for (int i = 0; i < T;\
+    \ i++){\n    long long A, B;\n    std::cin >> A >> B;\n    std::cout << A + B\
+    \ << '\\n';\n  }\n}\n"
   code: "#define PROBLEM \"https://judge.yosupo.jp/problem/many_aplusb\"\n#include\
-    \ <iostream>\nint main(){\n  std::ios_base::sync_with_stdio(false);\n  std::cin.tie(0);\n\
+    \ <iostream>\nint main(){\n  std::ios_base::sync_with_stdio(false);\n  std::cin.tie(nullptr);\n\
     \  int T;\n  std::cin >> T;\n  for (int i = 0; i < T; i++){\n    long long A,\
     \ B;\n    std::cin >> A >> B;\n    std::cout << A + B << '\\n';\n  }\n}"
   dependsOn: []
   isVerificationFile: true
   path: Sample/Many A + B/ac.test.cpp
   requiredBy: []
-  timestamp: '2023-05-08 12:25:09+09:00'
+  timestamp: '2023-09-24 05:52:34+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: Sample/Many A + B/ac.test.cpp
