@@ -1,14 +1,6 @@
 ---
 data:
-  libraryCategories:
-  - name: Polynomial/Product of Polynomial Sequence
-    pages:
-    - icon: ':warning:'
-      path: Polynomial/Product of Polynomial Sequence/dfs.cpp
-      title: Polynomial/Product of Polynomial Sequence/dfs.cpp
-    - icon: ':warning:'
-      path: Polynomial/Product of Polynomial Sequence/queue.cpp
-      title: Polynomial/Product of Polynomial Sequence/queue.cpp
+  libraryCategories: []
   verificationCategories:
   - name: Convolution/Bitwise And Convolution
     pages:
@@ -22,7 +14,7 @@ data:
       title: Convolution/Bitwise Xor Convolution/ac.test.cpp
   - name: Convolution/Convolution
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: Convolution/Convolution/ac.test.cpp
       title: Convolution/Convolution/ac.test.cpp
   - name: Convolution/Subset Convolution
@@ -67,9 +59,15 @@ data:
       title: Math/Montmort Number/ac.test.cpp
   - name: Polynomial/Product of Polynomial Sequence
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
+      path: Polynomial/Product of Polynomial Sequence/dfs.test.cpp
+      title: Polynomial/Product of Polynomial Sequence/dfs.test.cpp
+    - icon: ':heavy_check_mark:'
       path: Polynomial/Product of Polynomial Sequence/prique.test.cpp
       title: Polynomial/Product of Polynomial Sequence/prique.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: Polynomial/Product of Polynomial Sequence/queue.test.cpp
+      title: Polynomial/Product of Polynomial Sequence/queue.test.cpp
   - name: Sample/A + B
     pages:
     - icon: ':heavy_check_mark:'

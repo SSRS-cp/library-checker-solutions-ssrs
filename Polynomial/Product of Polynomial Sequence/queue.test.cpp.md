@@ -5,11 +5,15 @@ data:
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
-    links: []
-  bundledCode: "#line 1 \"Polynomial/Product of Polynomial Sequence/queue.cpp\"\n\
-    #include <iostream>\n#include <vector>\n#include <queue>\n#include <utility>\n\
+    '*NOT_SPECIAL_COMMENTS*': ''
+    PROBLEM: https://judge.yosupo.jp/problem/product_of_polynomial_sequence
+    links:
+    - https://judge.yosupo.jp/problem/product_of_polynomial_sequence
+  bundledCode: "#line 1 \"Polynomial/Product of Polynomial Sequence/queue.test.cpp\"\
+    \n#define PROBLEM \"https://judge.yosupo.jp/problem/product_of_polynomial_sequence\"\
+    \n#include <iostream>\n#include <vector>\n#include <queue>\n#include <utility>\n\
     const long long MOD = 998244353;\nconst long long HALF = 499122177;\nconst std::vector<long\
     \ long> ntt_root = {1, 998244352, 911660635, 372528824, 929031873, 452798380,\
     \ 922799308, 781712469, 476477967, 166035806, 258648936, 584193783, 63912897,\
@@ -46,7 +50,8 @@ data:
     \  for (int i = 0; i <= D; i++){\n      std::cout << a[i];\n      if (i < D){\n\
     \        std::cout << ' ';\n      }\n    }\n    std::cout << std::endl;\n  }\n\
     }\n"
-  code: "#include <iostream>\n#include <vector>\n#include <queue>\n#include <utility>\n\
+  code: "#define PROBLEM \"https://judge.yosupo.jp/problem/product_of_polynomial_sequence\"\
+    \n#include <iostream>\n#include <vector>\n#include <queue>\n#include <utility>\n\
     const long long MOD = 998244353;\nconst long long HALF = 499122177;\nconst std::vector<long\
     \ long> ntt_root = {1, 998244352, 911660635, 372528824, 929031873, 452798380,\
     \ 922799308, 781712469, 476477967, 166035806, 258648936, 584193783, 63912897,\
@@ -84,16 +89,16 @@ data:
     \        std::cout << ' ';\n      }\n    }\n    std::cout << std::endl;\n  }\n\
     }"
   dependsOn: []
-  isVerificationFile: false
-  path: Polynomial/Product of Polynomial Sequence/queue.cpp
+  isVerificationFile: true
+  path: Polynomial/Product of Polynomial Sequence/queue.test.cpp
   requiredBy: []
-  timestamp: '2023-09-27 01:51:26+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
+  timestamp: '2023-09-28 05:47:28+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: Polynomial/Product of Polynomial Sequence/queue.cpp
+documentation_of: Polynomial/Product of Polynomial Sequence/queue.test.cpp
 layout: document
 redirect_from:
-- /library/Polynomial/Product of Polynomial Sequence/queue.cpp
-- /library/Polynomial/Product of Polynomial Sequence/queue.cpp.html
-title: Polynomial/Product of Polynomial Sequence/queue.cpp
+- /verify/Polynomial/Product of Polynomial Sequence/queue.test.cpp
+- /verify/Polynomial/Product of Polynomial Sequence/queue.test.cpp.html
+title: Polynomial/Product of Polynomial Sequence/queue.test.cpp
 ---
